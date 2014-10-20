@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 
-VERSION = '3.2.5' 
+VERSION = '3.2.5'
 
 README_FILE = open('README')
 try:
@@ -10,7 +10,7 @@ try:
 finally:
     README_FILE.close()
 
- 
+
 setup(
     name='sorl-thumbnail',
     version=VERSION,
@@ -23,7 +23,6 @@ setup(
         'sorl',
         'sorl.thumbnail',
         'sorl.thumbnail.templatetags',
-        'sorl.thumbnail.tests',
         'sorl.thumbnail.management',
         'sorl.thumbnail.management.commands',
     ],
